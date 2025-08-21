@@ -16,6 +16,7 @@ An interactive React module for Class 10 students to explore fundamental wave co
 
 ## Screenshots / Media
 Add screenshots or GIFs to illustrate usage.
+![](https://github.com/ManpreetSingh18/animation-module/blob/main/recording.gif)
 
 ![Wave Demo](image.png)
 
