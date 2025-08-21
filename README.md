@@ -1,93 +1,67 @@
-Waves Module - Class 10 Interactive Educational Module
-Overview
+# Waves Module (Class 10) – Interactive Educational Module
 
-This project is an interactive educational module built in React for Class 10 students to learn about waves.
-It includes simulations, animations, and interactive controls to help students understand transverse and longitudinal waves through real-life examples such as water waves, light waves, sound waves, and rope pulses.
+## Overview
+An interactive React module for Class 10 students to explore fundamental wave concepts. It demonstrates transverse and longitudinal waves with real-life examples (water, light, sound, rope pulse, seismic P-wave, slinky) using animated HTML5 Canvas visualizations.
 
-Features
+## Features
+- **Transverse & Longitudinal Modes**: See perpendicular vs parallel medium motion.
+- **Selectable Real-world Examples**: Water surface, light (EM), rope pulse, sound, seismic P-wave, slinky compression.
+- **Interactive Sliders**: Adjust Amplitude, Frequency, Wavelength in real time.
+- **Phase Controls (if enabled)**: Manually shift wave phase.
+- **Play / Pause**: Control animation flow.
+- **Grid Overlay**: Toggle spatial reference grid.
+- **Dynamic Canvas Rendering**: Smooth animations via `requestAnimationFrame`.
+- **Responsive Layout**: 16:9 canvas inside adaptive two‑column design.
+- **Educational Annotations**: Contextual notes per example.
 
-Transverse & Longitudinal Waves
+## Screenshots / Media
+Add screenshots or GIFs to illustrate usage.
+![Wave Demo](image.png)
 
-Visualize how the medium moves (perpendicular or parallel to wave propagation)
+## Tech Stack
+- **React**
+- **Framer Motion** (UI motion)
+- **Tailwind CSS** (styling)
+- **HTML5 Canvas API** (simulations)
 
-Selectable Wave Examples
+## Getting Started
 
-Water surface waves, light waves, rope pulses, sound waves, seismic P-waves, slinky compression
-
-Interactive Sliders
-
-Adjust Amplitude, Frequency, and Wavelength in real-time
-
-Play/Pause & Grid Overlay
-
-Dynamic Canvas Animation
-
-Smooth wave motion using HTML5 Canvas and requestAnimationFrame
-
-Responsive Design
-
-Works on different screen sizes with a 16:9 aspect ratio canvas
-
-Screenshots / GIFs
-
-![alt text](image.png)
-
-Tech Stack
-
-React.js
-
-Framer Motion (animations)
-
-Tailwind CSS (styling)
-
-HTML5 Canvas API (wave simulations)
-
-How to Run Locally
-
-Clone the repository:
-
+### 1. Clone
+```bash
 git clone https://github.com/your-username/animation-module.git
-
-
-Navigate into the project directory:
-
 cd animation-module
+```
 
-
-Install dependencies:
-
+### 2. Install
+```bash
 npm install
+```
 
-
-Start the development server:
-
+### 3. Run Dev Server
+```bash
 npm start
+```
+Open http://localhost:3000 in a browser.
+
+## Usage
+1. Select a wave type: Transverse or Longitudinal.
+2. Pick an example (e.g., Water, Light, Sound).
+3. Adjust sliders (Amplitude, Frequency, Wavelength).
+4. Toggle Grid for a reference.
+5. Pause / Play to inspect shapes.
+6. (If present) Use Phase Shift to align or compare waves.
+
+## Educational Value
+- Visualizes how **energy** propagates without net matter transfer.
+- Differentiates **crest/trough** vs **compression/rarefaction**.
+- Reinforces relationships between **frequency, wavelength, and speed (v = fλ)**.
+- Demonstrates particle motion (orbital in water surface, oscillatory in sound).
+- Supports conceptual understanding through multi-example comparison.
+
+## Deployment
+Hosted at:
+https://animation-module.vercel.app/
+
+(Adjust above link if deployment target changes.)
 
 
-Open http://localhost:3000
- in your browser.
-
-Usage
-
-Select Wave Type: Click "Transverse" or "Longitudinal"
-
-Choose Example: Click any example below the canvas to see its animation
-
-Adjust Sliders: Modify Amplitude, Frequency, and Wavelength
-
-Pause/Play: Click the Pause/Play button to control animation
-
-Toggle Grid: Check or uncheck the "Grid" box
-
-Educational Value
-
-Demonstrates wave propagation in different media
-
-Shows real-life examples of waves
-
-Helps students visualize complex physics concepts interactively
-
-Deployment
-
-This module is hosted and can be accessed at:
-https://animation-module-yrkw.vercel.app/
