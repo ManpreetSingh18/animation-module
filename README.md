@@ -16,6 +16,7 @@ An interactive React module for Class 10 students to explore fundamental wave co
 
 ## Screenshots / Media
 Add screenshots or GIFs to illustrate usage.
+
 ![Wave Demo](image.png)
 
 ## Tech Stack
